@@ -325,12 +325,12 @@ picture {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.5rem;
 }
 
 .menu-button-group > a {
   display: block;
   text-align: center;
+  padding: 0 1rem;
   color: var(--gray-200, #b8bdc3);
   font-size: var(--nav);
   font-style: normal;
