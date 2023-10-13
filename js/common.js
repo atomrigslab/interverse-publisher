@@ -52,13 +52,11 @@ class AtomrigsCloseElement extends HTMLElement {
     const style = `
       .atomrigs-btn-close {
         display: inline-block;
-        width: 2rem;
-        height: 2rem;
       }
 
       .atomrigs-btn-close-icon {
-        width: 100%;
-        height: 100%;
+        width: 36px;
+        height: 36px;
       }
     `;
     this.innerHTML = `
@@ -151,7 +149,7 @@ class NavigationBarElement extends AtomrigsElement {
         <div class="menu-modal-container">
           <div class="menu-modal-header">
             ${langSwitchButton('', '')}
-            <atomrigs-close-button id="menu-modal-close-button"></atomrigs-close-button>
+            <atomrigs-close-button id="menu-modal-close-button" style="height:36px;"></atomrigs-close-button>
           </div>
           <div class="menu-button-group">
             ${menuButtons}
