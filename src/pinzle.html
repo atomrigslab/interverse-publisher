@@ -157,20 +157,17 @@
                   <div class="category" style="justify-content: center;">
                     <span><%= nft.pinzle[0].category %></span>
                   </div>
-                  <span class="title" style="margin-top: 0.2rem;">
+                  <span class="title">
                     <%= nft.pinzle[0].title %>
                   </span>
                   <span class="subtitle">
                     <%= nft.pinzle[0].subtitle %>
                   </span>
-                  <span class="content" style="margin-top: 0.2rem;">
+                  <span class="content" style="margin-top:16px; text-align: center;">
                     <%= nft.pinzle[0].content %>
                   </span>
-                  <div class="desktop-info" style="align-items: center;">
-                    <div style="display: flex; gap: 0.75rem;">
-                      <div class="nft-info-title"><%= quantity %></div>
-                      <div class="nft-info-text1"><%= nft.pinzle[0].quantity %></div>
-                    </div>
+                  <div class="desktop-info" style="margin-top:28px;">
+                      <span class="nft-info-title"><%= quantity %><span class="nft-info-text1" style="margin-left:12px;"><%= nft.pinzle[0].quantity %></span></span>
                   </div>
                   <atomrigs-button-group
                     collection="pinzle"

@@ -573,6 +573,7 @@ picture {
   justify-content: center;
   align-items: center;
   word-break: break-all;
+  gap: 8px;
 }
 
 :is(.nft-desc-area, .pinzle-nft-desc-area) > .category {
@@ -741,6 +742,7 @@ picture {
 
 .button-area-pinzle {
   justify-content: center;
+  margin-top: 28px;
 }
 
 .button-area button {
