@@ -283,13 +283,13 @@ picture {
 /* common */
 .footer-area {
   width: 100%;
-  min-height: 2rem;
+  min-height: fit-content;
   position: absolute;
-  bottom: 0px;
+  bottom: 40px;
+  right: 28px;
   z-index: 4100;
   display: flex;
   justify-content: flex-end;
-  padding: 0 1rem 1rem 0;
 }
 
 .footer-area > a {
