@@ -932,7 +932,6 @@ td {
   text-align: center;
   font-size: 3.125rem;
   font-weight: 700;
-  line-height: 120%;
   letter-spacing: -1px;
   text-transform: uppercase;
   color: #fff;
@@ -978,6 +977,15 @@ td {
   transform: translateX(-131%) translateY(-119%);
 }
 
+@media (max-width: 1024px) {
+  .intro-title-group {
+    font-size: 32px;
+  }
+
+  .text--random {
+    font-size: 32px;
+  }
+}
 /* utilities */
 .flex {
   display: flex;
