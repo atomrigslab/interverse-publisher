@@ -328,6 +328,7 @@ picture {
 }
 
 .menu-button-group > a {
+  
   display: block;
   text-align: center;
   padding: 0 1rem;
@@ -340,11 +341,13 @@ picture {
 
 @media screen and (max-width: 1024px) {
   .menu-button-group {
+    width: 100%;
     gap: 1.5rem;
   }
 
   .menu-button-group > a {
-    padding: 0;
+    width: 100%;
+    padding: 0 1rem;
   }
 }
 
