@@ -23,7 +23,7 @@
   /* text size */
   --title: 2rem;
   --subTitle: 1rem;
-  --content: 0.875rem;
+  --content: 1rem;
   --button: 0.875rem;
   --nav: 1.125rem;
   --background: 12.5rem;
@@ -328,6 +328,7 @@ picture {
 }
 
 .menu-button-group > a {
+  
   display: block;
   text-align: center;
   padding: 0 1rem;
@@ -340,11 +341,13 @@ picture {
 
 @media screen and (max-width: 1024px) {
   .menu-button-group {
+    width: 100%;
     gap: 1.5rem;
   }
 
   .menu-button-group > a {
-    padding: 0;
+    width: 100%;
+    padding: 0 1rem;
   }
 }
 
@@ -431,17 +434,21 @@ picture {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 0.75rem;
+  gap: 12px;
 }
 
 .menu-modal-header > a {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Pretendard, sans-serif;
   color: var(--White, #fff);
   font-size: 1.25rem;
   font-style: normal;
+  height: 36px;
+  width: 56px;
+  padding: 0 10px;
   font-weight: 600;
-  line-height: 120%; /* 1.5rem */
 }
 
 .menu-modal-footer {
@@ -836,7 +843,7 @@ picture {
 
 .benefit-text {
   font-size: 1rem;
-  color: var(--gray-300);
+  color: var(--gray-200);
 }
 
 .benefit-image {
