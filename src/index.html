@@ -12,14 +12,14 @@
   
   <title>Interverse</title>
 
-  <script async src="../js/google-tag-manager.js?id=G-ZG901889B8"></script>
-  <script src="../assets/jquery-3.7.1.slim.min.js"></script>
-  <link rel="icon" href="../assets/favicon-interverse-snowball.ico">
-  <link href="../css/main.css?dt=<%= Date.now() %>" rel="stylesheet">
-  <link href="../css/ji.css?dt=<%= Date.now() %>" rel="stylesheet">
-  <script src="../js/common.js?dt=<%= Date.now() %>"></script>
-  <script src="../js/components.js?dt=<%= Date.now() %>"></script>
-  <script src="../js/funcs.js?dt=<%= Date.now() %>"></script>
+  <script async src="/js/google-tag-manager.js?id=G-ZG901889B8"></script>
+  <script src="/assets/jquery-3.7.1.slim.min.js"></script>
+  <link rel="icon" href="/assets/favicon-interverse-snowball.ico">
+  <link href="/css/main.css?dt=1697764314020" rel="stylesheet">
+  <link href="/css/ji.css?dt=1697764314020" rel="stylesheet">
+  <script src="/js/common.js?dt=1697764314020"></script>
+  <script src="/js/components.js?dt=1697764314020"></script>
+  <script src="/js/funcs.js?dt=1697764314020"></script>
 
   <script>
     function onLoaded() {
@@ -39,8 +39,8 @@
     <div class="intro-webp-page pp page-main web" style="position:fixed">
       <div class="intro-page-content">
         <picture class="flex justify-center items-center">
-          <source srcset="../assets/interverse.webp" type="image/webp" />
-            <img src=" ../assets/bg.jpg" alt="" />
+          <source srcset="/assets/interverse.webp" type="image/webp" />
+            <img src=" /assets/bg.jpg" alt="" />
         </picture>
       </div>
     </div>
@@ -53,22 +53,25 @@
           style="background-color: transparent; text-decoration: none;"
           onClick="moveToNextSlide()"
         >
-          <img class="icon-arrow" src="../assets/icon-arrow.svg" alt="" />
+          <img class="icon-arrow" src="/assets/icon-arrow.svg" alt="" />
         </button>
       </div>
     </div>
     <div class="page page-cover pp">
-      <div>
-        <span class="text text--random" data-scroll="out" data-splitting="" style="white-space: pre;" ><%= intro.title[0] %></span>
-        <span class="text text--random" data-scroll="out" data-splitting="" style="white-space: pre;" ><%= intro.title[1] %></span>
-        <span class="text text--random" data-scroll="out" data-splitting="" style="white-space: pre;" ><%= intro.title[2] %></span>
+      <div class="intro-title-group">
+        <span class="text text--random" data-scroll="out" data-splitting="">Metaverse와</span>
+        <span class="text text--random" data-scroll="out" data-splitting=""> Web3의 </span>
+        <span class="text text--random" data-scroll="out" data-splitting="">만남</span>
       </div>
       <div class="intro-desc">
-          <span ><%= intro.desc[0] %></span>
-          <span><%= intro.desc[1] %></span>
-          <span ><%= intro.desc[2] %></span>
-          <span><%= intro.desc[3] %></span>
-          <span style="white-space: pre-line; font-weight: 400;"><%= intro.desc[4] %></span>
+          <span >ifland original X INTERVERSE의 콜라보</span>
+          <span>로 </span>
+          <span >새로운 Web3 Metaverse 아이템</span>
+          <span>들이 탄생하였습니다.</span>
+          <span style="white-space: pre-line; font-weight: 400;">
+            여러분이 영원히 소유하는 Web3 아이템들과 함께 Metaverse에서 나만의 특별한 이야기를 써나가 보세요.
+            현실 세계의 다양한 혜택도 준비되어 있습니다.
+          </span>
       </div>
     </div>
     </main>
@@ -79,8 +82,8 @@
     $("span:contains('ifland original X INTERVERSE')").addClass("intro-desc-gra");
     $("span:contains('Web3 Metaverse')").addClass("intro-desc-gra");
   </script>
-  <script src="../js/scroll-out.min.js"></script>
-  <script src="../js/splitting.1.0.6.min.js"></script>
+  <script src="/js/scroll-out.min.js"></script>
+  <script src="/js/splitting.1.0.6.min.js"></script>
   <script>
     Splitting();
     ScrollOut({
