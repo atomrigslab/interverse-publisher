@@ -623,7 +623,7 @@ picture {
 }
 
 .pinzle-nft-desc-area > .content {
-  width: 60vw;
+  width: 80vw;
   color: var(--gray-100);
   font-size: var(--content);
   font-weight: 400;
