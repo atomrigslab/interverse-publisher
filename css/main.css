@@ -664,6 +664,13 @@ picture {
   line-height: 120%; /* 1.35rem */
   text-transform: uppercase;
   word-break: break-all;
+  
+}
+
+@media (max-width: 1125px) {
+  .nft-info-text1 {
+    max-width: 450px;
+  }
 }
 
 @media (max-width: 1024px) {
